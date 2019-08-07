@@ -58,8 +58,8 @@ class Main extends React.Component {
   };
 
   componentDidMount() {
-    //const apiUrl = `https://young-refuge-33420.herokuapp.com/3827386810416`;
-    const apiUrl = 'https://api.myjson.com/bins/eb639/'
+    const apiUrl = `https://young-refuge-33420.herokuapp.com/`;
+    //const apiUrl = 'https://api.myjson.com/bins/eb639/'
 
     fetch(apiUrl)
       .then(res => res.json())
