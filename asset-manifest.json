@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/shirtsApp/static/css/main.6f4f71f7.chunk.css",
-    "main.js": "/shirtsApp/static/js/main.a636c933.chunk.js",
-    "main.js.map": "/shirtsApp/static/js/main.a636c933.chunk.js.map",
+    "main.css": "/shirtsApp/static/css/main.46fa847d.chunk.css",
+    "main.js": "/shirtsApp/static/js/main.4fe45261.chunk.js",
+    "main.js.map": "/shirtsApp/static/js/main.4fe45261.chunk.js.map",
     "runtime~main.js": "/shirtsApp/static/js/runtime~main.694e52c4.js",
     "runtime~main.js.map": "/shirtsApp/static/js/runtime~main.694e52c4.js.map",
     "static/css/2.52e666f5.chunk.css": "/shirtsApp/static/css/2.52e666f5.chunk.css",
     "static/js/2.adf01626.chunk.js": "/shirtsApp/static/js/2.adf01626.chunk.js",
     "static/js/2.adf01626.chunk.js.map": "/shirtsApp/static/js/2.adf01626.chunk.js.map",
     "index.html": "/shirtsApp/index.html",
-    "precache-manifest.7117645dd36854bdfe7ec5f56546fd6a.js": "/shirtsApp/precache-manifest.7117645dd36854bdfe7ec5f56546fd6a.js",
+    "precache-manifest.d4b34a6df4c2f3084c98abd138b72097.js": "/shirtsApp/precache-manifest.d4b34a6df4c2f3084c98abd138b72097.js",
     "service-worker.js": "/shirtsApp/service-worker.js",
     "static/css/2.52e666f5.chunk.css.map": "/shirtsApp/static/css/2.52e666f5.chunk.css.map",
-    "static/css/main.6f4f71f7.chunk.css.map": "/shirtsApp/static/css/main.6f4f71f7.chunk.css.map",
+    "static/css/main.46fa847d.chunk.css.map": "/shirtsApp/static/css/main.46fa847d.chunk.css.map",
     "static/media/font-awesome.min.css": "/shirtsApp/static/media/fontawesome-webfont.fee66e71.woff"
   }
 }
