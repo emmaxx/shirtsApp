@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/shirtsApp/static/css/main.4162146c.chunk.css",
+    "main.css": "/shirtsApp/static/css/main.6f4f71f7.chunk.css",
     "main.js": "/shirtsApp/static/js/main.a636c933.chunk.js",
     "main.js.map": "/shirtsApp/static/js/main.a636c933.chunk.js.map",
     "runtime~main.js": "/shirtsApp/static/js/runtime~main.694e52c4.js",
@@ -9,10 +9,10 @@
     "static/js/2.adf01626.chunk.js": "/shirtsApp/static/js/2.adf01626.chunk.js",
     "static/js/2.adf01626.chunk.js.map": "/shirtsApp/static/js/2.adf01626.chunk.js.map",
     "index.html": "/shirtsApp/index.html",
-    "precache-manifest.1cad9fe0037c73f725030e3281a74081.js": "/shirtsApp/precache-manifest.1cad9fe0037c73f725030e3281a74081.js",
+    "precache-manifest.7117645dd36854bdfe7ec5f56546fd6a.js": "/shirtsApp/precache-manifest.7117645dd36854bdfe7ec5f56546fd6a.js",
     "service-worker.js": "/shirtsApp/service-worker.js",
     "static/css/2.52e666f5.chunk.css.map": "/shirtsApp/static/css/2.52e666f5.chunk.css.map",
-    "static/css/main.4162146c.chunk.css.map": "/shirtsApp/static/css/main.4162146c.chunk.css.map",
+    "static/css/main.6f4f71f7.chunk.css.map": "/shirtsApp/static/css/main.6f4f71f7.chunk.css.map",
     "static/media/font-awesome.min.css": "/shirtsApp/static/media/fontawesome-webfont.fee66e71.woff"
   }
 }
