@@ -9,10 +9,10 @@ const Nav = () => {
   return (
     <nav>
       <ul className='mini-nav'>
-        <li className='hamburger-button'><i class="fa fa-bars"></i></li>
-        <li className='nav-search'><div class="input-icon-wrap">
-          <span class="input-icon"><span class="fa fa-search"></span></span>
-          <input type="text" class="input-with-icon" />
+        <li className='hamburger-button'><i className="fa fa-bars"></i></li>
+        <li className='nav-search'><div className="input-icon-wrap">
+          <span className="input-icon"><span className="fa fa-search"></span></span>
+          <input type="text" className="input-with-icon" />
         </div></li>
         <li><FontAwesomeIcon icon={ faUser }/></li>
         <li>Account</li>

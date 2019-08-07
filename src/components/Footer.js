@@ -8,7 +8,7 @@ function Footer() {
       <nav>
           <ul className='nav-info'>
             <hr />
-            <div className='foot-nav' tabindex='0'><h3>Shop</h3></div>
+            <div className='foot-nav' tabIndex='0'><h3>Shop</h3></div>
             <li className='foot-item'>footer item 1</li>
             <li className='foot-item'>footer item 2</li>
             <li className='foot-item'>footer item 3</li>
@@ -16,7 +16,7 @@ function Footer() {
           </ul>
           <ul className='nav-info'>
             <hr />
-            <div className='foot-nav' tabindex='0'><h3>About</h3></div>
+            <div className='foot-nav' tabIndex='0'><h3>About</h3></div>
             <li className='foot-item'>footer item 1</li>
             <li className='foot-item'>footer item 2</li>
             <li className='foot-item'>footer item 3</li>
@@ -24,7 +24,7 @@ function Footer() {
           </ul>
           <ul className='nav-info'>
             <hr />
-            <div className='foot-nav' tabindex='0'><h3>Explore</h3></div>
+            <div className='foot-nav' tabIndex='0'><h3>Explore</h3></div>
             <li className='foot-item'>footer item 1</li>
             <li className='foot-item'>footer item 2</li>
             <li className='foot-item'>footer item 3</li>
@@ -45,7 +45,7 @@ function Footer() {
         </div>
           <ul className='nav-info'>
             <hr />
-            <div className='foot-nav' tabindex='0'><h3>Locations</h3></div>
+            <div className='foot-nav' tabIndex='0'><h3>Locations</h3></div>
             <hr />
             <li className='foot-item'>footer item 1</li>
             <li className='foot-item'>footer item 2</li>
