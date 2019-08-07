@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "73c60c4fe301bcfd95875126a10930c4",
+    "revision": "0cf812e91aee8220e7192fc0e9497405",
     "url": "/shirtsApp/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/shirtsApp/static/css/2.52e666f5.chunk.css"
   },
   {
-    "revision": "4e22f93ab30a179e4eb4",
-    "url": "/shirtsApp/static/css/main.da4b059a.chunk.css"
+    "revision": "3da4f0145ba9a338a44a",
+    "url": "/shirtsApp/static/css/main.4162146c.chunk.css"
   },
   {
     "revision": "606486028c3fc414ccd4",
     "url": "/shirtsApp/static/js/2.adf01626.chunk.js"
   },
   {
-    "revision": "4e22f93ab30a179e4eb4",
-    "url": "/shirtsApp/static/js/main.b30a4b47.chunk.js"
+    "revision": "3da4f0145ba9a338a44a",
+    "url": "/shirtsApp/static/js/main.a636c933.chunk.js"
   },
   {
     "revision": "517db55ba130431274a8",
