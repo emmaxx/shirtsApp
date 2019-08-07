@@ -1,0 +1,202 @@
+footer {
+  margin:0;
+  background-color:$dark-gray;
+  display: flex;
+  flex-direction: column;
+  color:white;
+  nav{
+    display:flex;
+    flex-direction: row;
+    background-color: $silver;
+    background-size: cover;
+    justify-content: space-around;
+    align-items:center;
+    padding: 4em;
+    #newsletter{
+      >*{
+        line-height: 1.7em;
+      }
+      display:flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      max-width:25%;
+      .fa{
+        padding:0 .9em;
+      }
+      .email-form{
+        padding:1em 0;
+        ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+          color: lighten(gray, 35%);
+          padding: .5em;
+          padding-left: 1.5em;
+        }
+        input{
+          border-top-left-radius: 15px;
+          border-bottom-left-radius: 15px;
+          box-shadow: none;
+          display: block;
+          float: left;
+          width: 60%;
+          height: 2em;
+        }
+        button{
+          border-top-right-radius: 15px;
+          border-bottom-right-radius: 15px;
+          display: block;
+          float: left;
+          height: 2.4em;
+          margin: 1px -2px -2px;
+          border: 0;
+          background: none;
+          box-shadow: none;
+          background-color: #5979ed;
+          color:white;
+          padding: 0 10px;
+        }
+      }
+    }
+    ul{
+      hr{
+        display:none;
+      }
+      .foot-nav{
+        button{
+          display:none;
+        }
+      }
+    }
+    h3{
+      justify-content:center;
+    }
+    li{
+      padding:10px 10px 10px 0px;
+      list-style-type: none;
+    }
+  }
+  #footer-info{
+    padding:0 8%;
+    display:flex;
+    flex-direction: row;
+    height: 34px;
+    align-items: center; 
+    .copyright-info{
+      display:flex;
+      flex-direction: row;
+      margin-right: auto;
+      > *{
+        padding: 0 1em;
+      }
+    }
+    .card-info > *{
+        padding: 0 1em;
+    }
+  }
+}
+
+@media(max-width:900px){
+  footer {
+    nav{
+      justify-content: center;
+      flex-wrap:wrap-reverse;
+      flex-direction:column-reverse;
+      padding: 3em;
+      align-items: flex-end;
+      :nth-child(4){
+        order:-1;
+      }
+      :nth-child(5){
+        order:-1;
+      }
+      #newsletter{
+        align-items: left;
+        flex-direction:column-reverse;
+        max-width:95%;
+        padding-left: .3em;
+        h3{
+          padding-top:2em;
+        }
+        .email-form{
+          padding: 1em 0;
+          display:flex;
+          flex-direction:column-reverse;
+          align-items:center;
+          >*{
+            margin-bottom: 1em;
+          }
+          input{
+            width:90%;
+            border-radius: 15px;
+          }
+          button{
+            width:90%;
+            border-radius: 15px;
+          }
+        } 
+        .social-media{
+          display:flex;
+          flex-direction: row-reverse;
+          justify-content: center;
+          padding:.3em 0;
+          font-size: 2em;
+        }
+      }
+      ul.nav-info{
+        padding: 0;
+        width:95%;
+        >li{
+          display:none;
+        }
+        .foot-nav{
+          display:flex;
+          flex-direction: row-reverse;
+          outline: none;
+          h3{
+            margin-right:auto;
+          }
+        }
+        .foot-nav:focus ~ .foot-item{
+          display:block;
+          padding-left: 2em;
+          padding-top: 1em;
+        }
+        h3{
+          padding:5px;
+        }
+        hr{
+          display:block;
+          border: thin 1px;
+        }
+      }
+    }
+    #footer-info{
+      display:flex;
+      flex-direction:column-reverse;
+      height: 7em;
+      .copyright-info{
+        padding-bottom: 1em;
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: .8em;
+        :nth-child(3){order:-1}
+        :nth-child(1){order: -2}
+        span{
+          padding:0;
+        }
+      }
+      .card-info{
+        font-size:1.8em;
+        >*{
+          padding: .5em;
+        }
+      }
+    }
+  }
+}
+
+@media(max-width:450px){
+  footer nav{
+    padding:1em;
+  }
+}

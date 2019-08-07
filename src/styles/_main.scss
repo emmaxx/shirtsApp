@@ -1,0 +1,99 @@
+
+#grid-container{
+  padding: 2% 5%;
+  #grid-row{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+    .product{
+      flex-basis: 20%;
+      -ms-flex: auto;
+      position: relative;
+      padding: 1em 1em 1em 1em;
+      .new{
+        position:absolute;
+        background-color:white;
+        top:10%;
+        right:15%;
+        height:50px;
+        width:50px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100%;
+        text-align: center;
+        display: flex;
+        border-color: #3e3e3e;
+        box-shadow: 3px 3px 3px 0px  grey;
+      }
+      h4{
+        text-align:center;
+    }
+    .price{
+      display:flex;
+      justify-content: center;
+      span{
+        padding: .5em 1em;
+      }
+    }
+    span.sale{
+      padding: .5em 0;
+      color:red;
+      background-color: transparent;
+      background-image: repeating-linear-gradient(197deg, transparent 0%, transparent 48%, red 50%, transparent 52%, transparent 100%);
+    }
+    img{
+      width: 100%;
+      height: 70%;
+    }
+    .swatch-container{
+      padding: 1em;
+      display:flex;
+      flex-direction: row;
+      justify-content: center;
+      .swatch{
+        margin:5px;
+        width:25px;
+        height:25px;
+        border-radius: 100%;
+        border-color: #3e3e3e;
+        box-shadow: 0 3px 3px 0px  lightgray;
+        border-width:1px;
+      }
+      .active{
+        border-style: solid;
+      }
+      .Blue{
+        background-color:$blue;
+      }
+      .Red{
+        background-color:$red;
+      }
+      .Yellow{
+        background-color:$yellow;
+      }
+      .Lightblue{
+        background-color:$lightblue;
+      }
+      .White {
+        background-color: #ffffff;
+      }
+    }
+  }
+}
+}
+@media(max-width: 900px) {
+  #grid-container{ 
+    padding:0 0 2em 0;
+    #grid-row .product {
+      flex-basis: 30%;
+    }
+  }
+}
+
+@media(max-width: 350px){
+  #grid-container #grid-row .product {
+    padding: 2em .5em;
+      flex-basis: 30%;
+    }
+}
